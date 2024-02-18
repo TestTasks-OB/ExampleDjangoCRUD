@@ -15,6 +15,10 @@ gunicorn = "^21.2.0"
 whitenoise = "^6.6.0"
 
 
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.1"
+pytest-django = "^4.8.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
